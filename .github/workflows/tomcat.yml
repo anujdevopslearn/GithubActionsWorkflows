@@ -32,5 +32,5 @@ jobs:
          scp: |
           ./*.war => /tmp/Anuj.war
          last_ssh: |
-            sudo cp /tmp/Anuj.war /var/lib/tomcat9/webapps/Anuj.war
+            sudo cp -r /tmp/Anuj.war /var/lib/tomcat9/webapps/Anuj.war
             ls -la
