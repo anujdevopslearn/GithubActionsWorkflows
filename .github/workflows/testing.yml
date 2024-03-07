@@ -14,4 +14,4 @@ jobs:
         path: test
     - name: Invoke Python script
       run: python -m unittest discover
-      working-directory: test
+      working-directory: test/example-py-unittest/
