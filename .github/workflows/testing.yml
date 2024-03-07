@@ -12,6 +12,7 @@ jobs:
       with:
         repository: anujdevopslearn/PythonTest
         path: test
+        ref: 'master'
     - name: Invoke Python script
       run: python -m unittest discover
       working-directory: test/example-py-unittest/
