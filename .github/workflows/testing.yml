@@ -13,6 +13,7 @@ jobs:
         repository: anujdevopslearn/PythonTest
         path: test
         ref: 'master'
+        token: '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'
     - name: Invoke Python script
       run: python -m unittest discover
       working-directory: test/example-py-unittest/
